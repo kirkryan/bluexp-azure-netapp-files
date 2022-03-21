@@ -23,9 +23,9 @@ Azure NetApp Files enables enterprises to migrate and run their performance-inte
 
 == Additional features in Cloud Manager
 
-* Migrate NFS or SMB data to Azure NetApp Files directly from Cloud Manager. Data migrations are powered by NetApp's Cloud Sync service. link:concept-cloud-sync.html[Learn more].
+* Migrate NFS or SMB data to Azure NetApp Files directly from Cloud Manager. Data migrations are powered by NetApp's Cloud Sync service. https://docs.netapp.com/us-en/cloud-manager-sync/concept-cloud-sync.html[Learn more^].
 
-* Using Artificial Intelligence (AI) driven technology, Cloud Data Sense can help you understand data context and identify sensitive data that resides in your Azure NetApp Files accounts. link:concept-cloud-compliance.html[Learn more].
+* Using Artificial Intelligence (AI) driven technology, Cloud Data Sense can help you understand data context and identify sensitive data that resides in your Azure NetApp Files accounts. https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html[Learn more^].
 
 == Cost
 
