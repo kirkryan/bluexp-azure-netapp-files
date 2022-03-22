@@ -23,19 +23,23 @@ Azure NetApp Files enables enterprises to migrate and run their performance-inte
 
 == Additional features in Cloud Manager
 
-* Migrate NFS or SMB data to Azure NetApp Files directly from Cloud Manager. Data migrations are powered by NetApp's Cloud Sync service. https://docs.netapp.com/us-en/cloud-manager-sync/concept-cloud-sync.html[Learn more^].
+* Migrate NFS or SMB data to Azure NetApp Files directly from Cloud Manager. Data migrations are powered by NetApp's Cloud Sync service.
++
+https://docs.netapp.com/us-en/cloud-manager-sync/concept-cloud-sync.html[Learn more about Cloud Sync^]
 
-* Using Artificial Intelligence (AI) driven technology, Cloud Data Sense can help you understand data context and identify sensitive data that resides in your Azure NetApp Files accounts. https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html[Learn more^].
+* Using Artificial Intelligence (AI) driven technology, Cloud Data Sense can help you understand data context and identify sensitive data that resides in your Azure NetApp Files accounts.
++
+https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html[Learn more about Cloud Data Sense^]
 
 == Cost
 
-https://azure.microsoft.com/pricing/details/netapp/[View Azure NetApp Files pricing^].
+https://azure.microsoft.com/pricing/details/netapp/[View Azure NetApp Files pricing^]
 
 Note that your subscription and charging are maintained by the Azure NetApp Files service and not by Cloud Manager.
 
 == Supported regions
 
-https://cloud.netapp.com/cloud-volumes-global-regions[View supported Azure regions^].
+https://cloud.netapp.com/cloud-volumes-global-regions[View supported Azure regions^]
 
 == Getting help
 
@@ -47,4 +51,4 @@ For issues related to Cloud Sync and Azure NetApp Files, you can start with NetA
 
 * https://cloud.netapp.com/azure-netapp-files[NetApp Cloud Central: Azure NetApp Files^]
 * https://docs.microsoft.com/azure/azure-netapp-files/[Azure NetApp Files documentation^]
-* https://docs.netapp.com/us-en/cloudsync/index.html[Cloud Sync documentation^]
+* https://docs.netapp.com/us-en/cloud-manager-sync/index.html[Cloud Sync documentation^]

@@ -13,7 +13,7 @@ summary: After you set up your working environment, you can manage Azure NetApp 
 :imagesdir: ./media/
 
 [.lead]
-After you set up your working environment, you can manage Azure NetApp Files accounts, capacity pools, volumes, and snapshots.
+You can manage existing volumes as your storage needs change. You can edit volumes, change a volume's service level, manage Snapshot copies, and delete volumes.
 
 == Edit a volume's size and tags
 

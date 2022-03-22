@@ -19,7 +19,7 @@ After you set up your working environment, you can create Azure NetApp Files acc
 
 You can create NFS or SMB volumes in a new or existing Azure NetApp Files account.
 
-A Cloud Manager feature called "templates" enables you to create volumes that are optimized for the workload requirements for certain applications; such as databases or streaming services. If your organization has created volume templates that you should use, follow <<Creating volumes from templates,these steps>>.
+A Cloud Manager feature called "templates" enables you to create volumes that are optimized for the workload requirements for certain applications; such as databases or streaming services. If your organization has created volume templates that you should use, follow <<Create volumes from templates,these steps>>.
 
 .Before you begin
 
@@ -65,7 +65,7 @@ image:screenshot_anf_smb.gif[A screenshot of the fields required to set up an SM
 
 The new volume is added to the working environment.
 
-Continue with <<Mounting volumes,mounting the cloud volume>>.
+Continue with <<Mount volumes,mounting the cloud volume>>.
 
 == Create volumes from templates
 
