@@ -22,7 +22,7 @@ sidebar:
         - title: Set up an Azure AD application
           url: /task-set-up-azure-ad.html
         - title: Create a working environment
-          url: /taske-create-working-env.html
+          url: /task-create-working-env.html
     - title: Use Azure NetApp Files
       entries:
         - title: Create and mount volumes

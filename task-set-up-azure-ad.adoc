@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: task-manage-anf.html
+permalink: task-set-up-azure-ad.html
 keywords: azure netapp files, azure netapp files permissions, azure permissions, active directory, application, ad application, ad app, app, service principal
 summary: Cloud Manager needs permissions to set up and manage Azure NetApp Files. You can grant the required permissions to an Azure account by creating and setting up an Azure Active Directory application and by obtaining the Azure credentials that Cloud Manager needs.
 ---

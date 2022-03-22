@@ -15,12 +15,29 @@ summary: Learn what's new with Azure NetApp Files support in Cloud Manager.
 [.lead]
 Learn what's new with Azure NetApp Files support in Cloud Manager.
 
-tag::whats-new[]
+//tag::whats-new[]
+== 11 Apr 2021
+
+=== Support for volume templates
+
+A new Application Templates service enables you to set up a volume template for Azure NetApp Files. The template should make your job easier because certain volume parameters will already be defined in the template, such as capacity pool, size, protocol, VNet and subnet where the volume should reside, and more. When a parameter is already predefined, you can just skip to the next volume parameter.
+
+* https://docs.netapp.com/us-en/cloud-manager-app-template/concept-resource-templates.html[Learn about Application Templates and how you can use them in your environment^]
+* link:task-create-volumes.html[Learn how to create an Azure NetApp Files volume from a template]
+
+== 08 Mar 2021
+
+=== Dynamically change service levels
+
+You can now dynamically change the service level for a volume to meet workload needs and optimize your costs. The volume is moved to the other capacity pool with no impact to the volume.
+
+link:task-manage-volumes.html#change-the-volumes-service-level[Learn how to change a volume's service level].
+
 == 03 Aug 2020
 
 === Azure NetApp Files set up and management
 
-You can now set up and manage Azure NetApp Files directly from Cloud Manager. After you create an Azure NetApp Files working environment, you can complete the following tasks:
+Set up and manage Azure NetApp Files directly from Cloud Manager. After you create an Azure NetApp Files working environment, you can complete the following tasks:
 
 * Create NFS and SMB volumes.
 
@@ -30,9 +47,11 @@ Cloud Manager enables you to create, delete, and restore volume snapshots. You c
 
 * Edit a volume by changing its size and managing tags.
 
+This new ability to create and manage Azure NetApp Files directly from Cloud Manager replaces the previous data migration functionality.
+//end::whats-new[]
+
 == 05 Apr 2020
 
 === Data migration to Azure NetApp Files
 
 You can now migrate NFS or SMB data to Azure NetApp Files directly from Cloud Manager. Data syncs are powered by NetApp's Cloud Sync service.
-end::whats-new[]
