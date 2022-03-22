@@ -1,0 +1,38 @@
+---
+sidebar: sidebar
+permalink: task-create-working-env.html
+keywords: azure netapp files, create working environment, working environment
+summary: After you set up an Azure Active Directory application, create an Azure NetApp Files working environment in Cloud Manager so you can start creating the volumes that you need.
+---
+
+= Create an Azure NetApp Files working environment
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+After you set up an Azure Active Directory application, create an Azure NetApp Files working environment in Cloud Manager so that you can start creating the volumes that you need.
+
+.Steps
+
+. From the Canvas page, click *Add Working Environment*.
+
+. Select *Microsoft Azure* and then *Azure NetApp Files*.
+
+. Provide details about the AD application that you previously set up.
++
+image:screenshot_anf_details.gif["A screenshot of the fields that are required to create an Azure NetApp Files working environment, which includes a name, application ID, client secret, and directory ID."]
+
+. Click *Add*.
+
+.Result
+
+You should now have an Azure NetApp Files working environment.
+
+image:screenshot_anf_we.gif[A screenshot of an Azure NetApp Files working environment.]
+
+.What's next?
+
+link:task-create-volumes.html[Start creating and managing volumes].
