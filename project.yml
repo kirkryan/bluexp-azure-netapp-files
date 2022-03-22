@@ -1,5 +1,6 @@
 settings:
   name: Azure NetApp Files
+  platform: cloud
   internal:
     pdf_enabled: true
   prod:
@@ -16,12 +17,20 @@ sidebar:
       entries:
         - title: Learn about Azure NetApp Files
           url: /concept-azure-netapp-files.html
+        - title: Quick start
+          url: /task-quick-start.html
+        - title: Set up an Azure AD application
+          url: /task-set-up-azure-ad.html
+        - title: Create a working environment
+          url: /taske-create-working-env.html
     - title: Use Azure NetApp Files
       entries:
-        - title: Set up Azure NetApp Files
-          url: /task-manage-anf.html
-        - title: Create and manage volumes
-          url: /task-manage-anf-volumes.html
+        - title: Create and mount volumes
+          url: /task-create-volumes.html
+        - title: Manage existing volumes
+          url: /task-manage-volumes.html
+        - title: Remove Azure NetApp Files
+          url: /task-remove-working-env.html
     - title: Knowledge and support
       entries:
         - title: Register for support
@@ -30,24 +39,23 @@ sidebar:
           url: /task-get-help.html
     - title: Legal notices
       url: /legal-notices.html
+product-family:
+  name: Cloud Manager
+  repo: cloud-manager-family
 homepage:
   tiles:
     - title: Get started
       links:
-        - title: title
-          url: page.html
-        - title: title
-          url: page.html
-        - title: title
-          url: page.html
-    - title: tile name
+        - title: Learn about Azure NetApp Files
+          url: concept-azure-netapp-files.html
+        - title: Quick start
+          url: task-quick-start.html
+    - title: Use Azure NetApp Files
       links:
-        - title: title
-          url: page.html
-        - title: title
-          url: page.html
-        - title: title
-          url: page.html
+        - title: Create volumes
+          url: task-create-volumes.html
+        - title: Manage volumes
+          url: task-manage-volumes.html
     - title: Blogs & community
       links:
         - title: NetApp Community

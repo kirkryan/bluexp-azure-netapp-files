@@ -2,10 +2,10 @@
 sidebar: sidebar
 permalink: whats-new.html
 keywords: what's new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes
-summary: Learn what's new in <service>.
+summary: Learn what's new with Azure NetApp Files support in Cloud Manager.
 ---
 
-= What's new with <service>
+= What's new
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,46 +13,26 @@ summary: Learn what's new in <service>.
 :imagesdir: ./media/
 
 [.lead]
-Learn what's new in <service>.
+Learn what's new with Azure NetApp Files support in Cloud Manager.
 
 tag::whats-new[]
-== <date of release in the format dd month year like 28 Nov 2021>
+== 03 Aug 2020
 
-=== <feature title>
+=== Azure NetApp Files set up and management
 
-<description>
+You can now set up and manage Azure NetApp Files directly from Cloud Manager. After you create an Azure NetApp Files working environment, you can complete the following tasks:
 
-=== <feature title>
+* Create NFS and SMB volumes.
 
-<description>
+* Manage capacity pools and volume snapshots
++
+Cloud Manager enables you to create, delete, and restore volume snapshots. You can also create new capacity pools and specify their service levels.
 
-== <date of release in the format dd month year like 28 Nov 2021>
+* Edit a volume by changing its size and managing tags.
 
-=== <feature title>
+== 05 Apr 2020
 
-<description>
+=== Data migration to Azure NetApp Files
 
-=== <feature title>
-
-<description>
-
-== <date of release in the format dd month year like 28 Nov 2021>
-
-=== <feature title>
-
-<description>
-
-=== <feature title>
-
-<description>
+You can now migrate NFS or SMB data to Azure NetApp Files directly from Cloud Manager. Data syncs are powered by NetApp's Cloud Sync service.
 end::whats-new[]
-
-== <date of release in the format dd month year like 28 Nov 2021>
-
-=== <feature title>
-
-<description>
-
-=== <feature title>
-
-<description>

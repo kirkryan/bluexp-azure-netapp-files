@@ -1,0 +1,76 @@
+---
+sidebar: sidebar
+permalink: task-manage-volumes.html
+keywords: azure netapp files, delete volumes, delete nfs volumes, netapp account, capacity pool, change service level
+summary: After you set up your working environment, you can manage Azure NetApp Files accounts, capacity pools, volumes, and snapshots.
+---
+
+= Manage volumes for Azure NetApp Files
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+After you set up your working environment, you can manage Azure NetApp Files accounts, capacity pools, volumes, and snapshots.
+
+== Edit a volume's size and tags
+
+After you create a volume, you can modify its size and tags at any time.
+
+.Steps
+
+. Open the working environment.
+
+. Hover over the volume and select *Edit*.
+
+. Modify the size and tags as needed.
+
+. Click *Apply*.
+
+== Change the volume's service level
+
+After you create a volume, you can change the service level at any time as long as the destination capacity pool already exists.
+
+.Steps
+
+. Open the working environment.
+
+. Hover over the volume and select *Change service level*.
+
+. Select the capacity pool that provides the service level that you want.
+
+. Click *Change*.
+
+.Result
+
+The volume is moved to the other capacity pool with no impact to the volume.
+
+== Manage Snapshot copies
+
+Snapshot copies provide a point-in-time copy of your volume. Create Snapshot copies, restore the data to a new volume, and delete Snapshot copies.
+
+.Steps
+
+. Open the working environment.
+
+. Hover over the volume and choose one of the available options to manage Snapshot copies:
+
+* *Create a Snapshot copy*
+* *Revert volume to Snapshot*
+* *Delete a Snapshot copy*
+
+. Follow the prompts to complete the selected action.
+
+== Delete volumes
+
+Delete the volumes that you no longer need.
+
+.Steps
+
+. Open the working environment.
+
+. Hover over the volume and click *Delete*.
+
+. Confirm that you want to delete the volume.
