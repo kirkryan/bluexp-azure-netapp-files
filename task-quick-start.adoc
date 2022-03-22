@@ -20,6 +20,7 @@ Get started quickly by following these steps or follow the links for full detail
 [role="quick-margin-para"]
 From Azure, grant permissions to an Azure AD application and copy the application (client) ID, the directory (tenant) ID, and the value of a client secret.
 
+[role="quick-margin-para"]
 link:task-set-up-azure-ad.html[Learn how to set up an Azure AD application].
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png[Two] Create an Azure NetApp Files working environment
@@ -27,4 +28,5 @@ link:task-set-up-azure-ad.html[Learn how to set up an Azure AD application].
 [role="quick-margin-para"]
 In Cloud Manager, click *Add Working Environment* > *Microsoft Azure* > *Azure NetApp Files* and then provide details about the AD application.
 
+[role="quick-margin-para"]
 link:task-create-working-env.html[Learn how to create a working environment].
