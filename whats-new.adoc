@@ -47,7 +47,7 @@ Cloud Manager enables you to create, delete, and restore volume snapshots. You c
 
 * Edit a volume by changing its size and managing tags.
 
-This new ability to create and manage Azure NetApp Files directly from Cloud Manager replaces the previous data migration functionality.
+The ability to create and manage Azure NetApp Files directly from Cloud Manager replaces the previous data migration functionality.
 //end::whats-new[]
 
 == 05 Apr 2020
