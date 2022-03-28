@@ -45,8 +45,6 @@ https://cloud.netapp.com/cloud-volumes-global-regions[View supported Azure regio
 
 For technical support issues associated with Azure NetApp Files, use the Azure portal to log a support request to Microsoft. Select your associated Microsoft subscription and select the *Azure NetApp Files* service name under *Storage*. Provide the remaining information required to create your Microsoft support request.
 
-For issues related to Cloud Sync and Azure NetApp Files, you can start with NetApp using your Cloud Sync serial number directly from the Cloud Sync service. You will need to access the Cloud Sync service through the link in Cloud Manager. https://docs.netapp.com/us-en/cloudsync/reference_additional_info.html[View the process to enable Cloud Sync support^].
-
 == Related links
 
 * https://cloud.netapp.com/azure-netapp-files[NetApp Cloud Central: Azure NetApp Files^]
