@@ -1,0 +1,26 @@
+---
+sidebar: sidebar
+permalink: task-remove-working-env.html
+keywords: remove azure netapp files, remove anf, remove working environment
+summary: This action removes Azure NetApp Files from Cloud Manager. It doesn't delete your Azure NetApp Files account or volumes. You can add Azure NetApp Files back to Cloud Manager at any time.
+---
+
+= Remove Azure NetApp Files
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+This action removes Azure NetApp Files from Cloud Manager. It doesn't delete your Azure NetApp Files account or volumes. You can add Azure NetApp Files back to Cloud Manager at any time.
+
+.Steps
+
+. Open the Azure NetApp Files working environment.
+
+. At the top right of the page, select the actions menu and click *Remove Azure NetApp Files*.
++
+image:screenshot_anf_remove.gif[A screenshot of clicking Remove Azure NetApp Files to remove the volumes from the Cloud Manager interface.]
+
+. Click *Remove* to confirm.

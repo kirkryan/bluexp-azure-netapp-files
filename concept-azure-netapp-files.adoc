@@ -1,0 +1,52 @@
+---
+sidebar: sidebar
+permalink: concept-azure-netapp-files.html
+keywords: azure netapp files, cost, price, features, azure netapp files features, anf, supported regions, azure regions, azure netapp files regions
+summary: Azure NetApp Files enables enterprises to migrate and run their performance-intensive and latency-sensitive core, business-critical applications in Azure with no need to refactor for the cloud.
+---
+
+= Learn about Azure NetApp Files
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+Azure NetApp Files enables enterprises to migrate and run their performance-intensive and latency-sensitive core, business-critical applications in Azure with no need to refactor for the cloud.
+
+== Features
+
+* Support for multiple protocols enables "lift & shift" of both Linux & Windows applications to run seamlessly in Azure.
+* Multiple performance tiers allow for close alignment with workload performance requirements.
+* Leading certifications including SAP HANA, GDPR, and HIPAA enables migration of the most demanding workloads to Azure.
+
+== Additional features in Cloud Manager
+
+* Migrate NFS or SMB data to Azure NetApp Files directly from Cloud Manager. Data migrations are powered by NetApp's Cloud Sync service.
++
+https://docs.netapp.com/us-en/cloud-manager-sync/concept-cloud-sync.html[Learn more about Cloud Sync^]
+
+* Using Artificial Intelligence (AI) driven technology, Cloud Data Sense can help you understand data context and identify sensitive data that resides in your Azure NetApp Files accounts.
++
+https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html[Learn more about Cloud Data Sense^]
+
+== Cost
+
+https://azure.microsoft.com/pricing/details/netapp/[View Azure NetApp Files pricing^]
+
+Note that your subscription and charging are maintained by the Azure NetApp Files service and not by Cloud Manager.
+
+== Supported regions
+
+https://cloud.netapp.com/cloud-volumes-global-regions[View supported Azure regions^]
+
+== Getting help
+
+For technical support issues associated with Azure NetApp Files, use the Azure portal to log a support request to Microsoft. Select your associated Microsoft subscription and select the *Azure NetApp Files* service name under *Storage*. Provide the remaining information required to create your Microsoft support request.
+
+== Related links
+
+* https://cloud.netapp.com/azure-netapp-files[NetApp Cloud Central: Azure NetApp Files^]
+* https://docs.microsoft.com/azure/azure-netapp-files/[Azure NetApp Files documentation^]
+* https://docs.netapp.com/us-en/cloud-manager-sync/index.html[Cloud Sync documentation^]

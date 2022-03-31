@@ -1,0 +1,120 @@
+---
+sidebar: sidebar
+permalink: task-create-volumes.html
+keywords: azure netapp files, create volumes, create nfs volumes, netapp account, capacity pool, create capacity pool, mount path, get mount path, find mount path, mount volume
+summary: After you set up your working environment, you can create Azure NetApp Files accounts, capacity pools, and volumes.
+---
+
+= Create and mount volumes for Azure NetApp Files
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+After you set up your working environment, you can create Azure NetApp Files accounts, capacity pools, and volumes.
+
+== Create volumes
+
+You can create NFS or SMB volumes in a new or existing Azure NetApp Files account.
+
+A Cloud Manager feature called "templates" enables you to create volumes that are optimized for the workload requirements for certain applications; such as databases or streaming services. If your organization has created volume templates that you should use, follow <<Create volumes from templates,these steps>>.
+
+.Before you begin
+
+* If you want to use SMB, you must have set up DNS and Active Directory.
+
+* When planning to create an SMB volume, you must have a Windows Active Directory server available to which you can connect. You will enter this information when creating the volume.
+
+.Steps
+
+. Open the Azure NetApp Files working environment.
+
+. Click *Add New Volume*.
+
+. Provide the required information on each page:
+
+* *Azure NetApp Files Account*: Choose an existing Azure NetApp Files account or create a new account. When creating a new account you can also choose the Resource Group that you want to use.
++
+image:screenshot_anf_create_account.png[A screenshot of the fields required to create an Azure NetApp Files account, which includes a name, Azure subscription, location, and resource group.]
+
+* *Capacity Pool*: Select an existing capacity pool or create a new capacity pool.
++
+If you create a new capacity pool, you need to specify a size and select a https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-service-levels[service level^].
++
+The minimum size for the capacity pool is 4 TB. You can specify a size in multiples of 4 TB.
+
+* *Details & Tags*: Enter a volume name and size, the VNet and subnet where the volume should reside, and optionally specify tags for the volume.
+
+* *Protocol*: Choose the NFS or SMB protocol and enter the required information.
++
+Here's an example of details for NFS.
++
+image:screenshot_anf_nfs.gif[A screenshot of the fields required to set up an NFS volume.]
++
+Here's an example of details for SMB. You'll need to provide Active Directory information on the next page when you set up your first SMB volume.
++
+image:screenshot_anf_smb.gif[A screenshot of the fields required to set up an SMB volume.]
+
+. If you want this volume to be created based on a snapshot of an existing volume, select the snapshot from the Snapshot Name drop-down list.
+
+. Click *Add Volume*.
+
+.Result
+
+The new volume is added to the working environment.
+
+Continue with <<Mount volumes,mounting the cloud volume>>.
+
+== Create volumes from templates
+
+If your organization has created Azure NetApp Files volume templates so that you can deploy volumes that are optimized for the workload requirements for certain applications, follow the steps in this section.
+
+The template should make your job easier because certain volume parameters will already be defined in the template, such as capacity pool, size, protocol, VNet and subnet where the volume should reside, and more. When a parameter is already predefined, you can just skip to the next volume parameter.
+
+.Steps
+
+. On the Canvas page, click the Azure NetApp Files working environment on which you want to provision a volume.
+
+. Click image:screenshot_gallery_options.gif[More button] > *Add Volume From Template*.
++
+image:screenshot_template_add_vol_anf.png[A screenshot showing how to add a new volume from a template.]
+
+. In the _Select Template_ page, select the template that you want to use to create the volume and click *Next*.
++
+image:screenshot_select_template_anf.png[A screenshot of the available application templates.]
++
+The _Define Parameters_ page is displayed.
++
+image:screenshot_define_anf_vol_from_template.png[A screenshot showing a blank template that you need to fill in to create a volume.]
++
+*Note:* You can click the checkbox *Show read-only parameters* to show all the fields that have been locked by the template if you want to see the values for those parameters. By default these predefined fields are hidden and only the fields you need to complete are shown.
+
+. Add values for all of the parameters that are not hard-coded from the template. See <<Creating volumes,creating volumes>> for details about all the parameters you need to complete to deploy an Azure NetApp Files volume.
+
+. Click *Run Template* after you have defined all the parameters needed for this volume.
+
+.Result
+
+Cloud Manager provisions the volume and displays a page so that you can see the progress.
+
+image:screenshot_template_creating_resource_anf.png[A screenshot showing the progress of creating your new volume from the template.]
+
+Then the new volume is added to the working environment.
+
+Continue with mounting the cloud volume.
+
+== Mount volumes
+
+Access mounting instructions from within Cloud Manager so you can mount the volume to a host.
+
+.Steps
+
+. Open the working environment.
+
+. Hover over the volume and select *Mount the volume*.
++
+image:screenshot_anf_hover.png[A screenshot of available operations available when you hover the cursor over a volume.]
+
+. Follow the instructions to mount the volume.
