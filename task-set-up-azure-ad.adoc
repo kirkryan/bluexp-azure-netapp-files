@@ -89,7 +89,7 @@ image:screenshot_azure_access_control.gif[A screenshot that shows the steps to a
 +
 [source,json]
 "actions": [
-    "Microsoft.NetApp/*",
+    "Microsoft.NetApp/*"
     ],
 
 .. Click *Save*, click *Next*, and then click *Create*.
