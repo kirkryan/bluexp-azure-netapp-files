@@ -8,8 +8,6 @@ settings:
     harmony_enabled: true
 sidebar:
   entries:
-    - title: All Cloud Manager documentation
-      url: https://docs.netapp.com/us-en/cloud-manager-family
     - title: Azure NetApp Files docs
       url: /index.html
     - title: Release notes
@@ -43,6 +41,7 @@ sidebar:
 product-family:
   name: Cloud Manager
   repo: cloud-manager-family
+  sidebar_label: All Cloud Manager documentation
 homepage:
   tiles:
     - title: Get started
