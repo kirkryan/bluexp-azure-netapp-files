@@ -21,9 +21,9 @@ Azure NetApp Files enables enterprises to migrate and run their performance-inte
 * Multiple performance tiers allow for close alignment with workload performance requirements.
 * Leading certifications including SAP HANA, GDPR, and HIPAA enables migration of the most demanding workloads to Azure.
 
-== Additional features in Cloud Manager
+== Additional features in BlueXP
 
-* Migrate NFS or SMB data to Azure NetApp Files directly from Cloud Manager. Data migrations are powered by NetApp's Cloud Sync service.
+* Migrate NFS or SMB data to Azure NetApp Files directly from BlueXP (formerly Cloud Manager). Data migrations are powered by NetApp's Cloud Sync service.
 +
 https://docs.netapp.com/us-en/cloud-manager-sync/concept-cloud-sync.html[Learn more about Cloud Sync^]
 
@@ -35,7 +35,7 @@ https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.
 
 https://azure.microsoft.com/pricing/details/netapp/[View Azure NetApp Files pricing^]
 
-Note that your subscription and charging are maintained by the Azure NetApp Files service and not by Cloud Manager.
+Note that your subscription and charging are maintained by the Azure NetApp Files service and not by BlueXP.
 
 == Supported regions
 
@@ -47,6 +47,6 @@ For technical support issues associated with Azure NetApp Files, use the Azure p
 
 == Related links
 
-* https://cloud.netapp.com/azure-netapp-files[NetApp Cloud Central: Azure NetApp Files^]
+* https://cloud.netapp.com/azure-netapp-files[NetApp BlueXP website: Azure NetApp Files^]
 * https://docs.microsoft.com/azure/azure-netapp-files/[Azure NetApp Files documentation^]
 * https://docs.netapp.com/us-en/cloud-manager-sync/index.html[Cloud Sync documentation^]
