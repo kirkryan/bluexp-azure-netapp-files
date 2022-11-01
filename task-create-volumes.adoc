@@ -19,7 +19,7 @@ After you set up your working environment, you can create Azure NetApp Files acc
 
 You can create NFS or SMB volumes in a new or existing Azure NetApp Files account.
 
-A Cloud Manager feature called "templates" enables you to create volumes that are optimized for the workload requirements for certain applications; such as databases or streaming services. If your organization has created volume templates that you should use, follow <<Create volumes from templates,these steps>>.
+A BlueXP feature called "templates" enables you to create volumes that are optimized for the workload requirements for certain applications; such as databases or streaming services. If your organization has created volume templates that you should use, follow <<Create volumes from templates,these steps>>.
 
 .Before you begin
 
@@ -97,7 +97,7 @@ image:screenshot_define_anf_vol_from_template.png[A screenshot showing a blank t
 
 .Result
 
-Cloud Manager provisions the volume and displays a page so that you can see the progress.
+BlueXP provisions the volume and displays a page so that you can see the progress.
 
 image:screenshot_template_creating_resource_anf.png[A screenshot showing the progress of creating your new volume from the template.]
 
@@ -107,7 +107,7 @@ Continue with mounting the cloud volume.
 
 == Mount volumes
 
-Access mounting instructions from within Cloud Manager so you can mount the volume to a host.
+Access mounting instructions from within BlueXP so you can mount the volume to a host.
 
 .Steps
 

@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: whats-new.html
 keywords: what's new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes
-summary: Learn what's new with Azure NetApp Files support in Cloud Manager.
+summary: Learn what's new with Azure NetApp Files support in BlueXP.
 ---
 
 = What's new
@@ -13,7 +13,7 @@ summary: Learn what's new with Azure NetApp Files support in Cloud Manager.
 :imagesdir: ./media/
 
 [.lead]
-Learn what's new with Azure NetApp Files in Cloud Manager.
+Learn what's new with Azure NetApp Files in BlueXP.
 
 //tag::whats-new[]
 == 11 April 2021
