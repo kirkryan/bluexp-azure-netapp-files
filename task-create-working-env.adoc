@@ -13,19 +13,19 @@ summary: After you set up an Azure Active Directory application, create an Azure
 :imagesdir: ./media/
 
 [.lead]
-After you set up an Azure Active Directory application, create an Azure NetApp Files working environment in BlueXP so that you can start creating the volumes that you need.
+After you set up an Azure Active Directory application and add the credentials to BlueXP, create an Azure NetApp Files working environment so that you can start creating the volumes that you need.
 
 .Steps
 
 . From the Canvas page, click *Add Working Environment*.
 
-. Select *Microsoft Azure* and then *Azure NetApp Files*.
+. Select *Microsoft Azure*.
 
-. Provide details about the AD application that you previously set up.
-+
-image:screenshot_anf_details.gif["A screenshot of the fields that are required to create an Azure NetApp Files working environment, which includes a name, application ID, client secret, and directory ID."]
+. Next to Azure NetApp Files, select *Discover*.
 
-. Click *Add*.
+. On the Details page, enter a working environment name and select the credentials that you previously set up.
+
+. Click *Continue*.
 
 .Result
 

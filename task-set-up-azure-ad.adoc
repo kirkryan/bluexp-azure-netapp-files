@@ -128,3 +128,27 @@ image:screenshot_anf_app_role.png[A screenshot of the Azure portal that shows th
 .. Click *Review + assign*.
 +
 The service principal for BlueXP now has the required Azure permissions for that subscription.
+
+== Add the credentials to BlueXP
+
+When you create the Azure NetApp Files working environment, you're prompted to select the credentials associated with the service principal. You need to add these credentials to BlueXP before you create the working environment.
+
+.Steps
+
+. In the upper right of the BlueXP console, click the Settings icon, and select *Credentials*.
++
+image:screenshot_settings_icon.gif[A screenshot that shows the Settings icon in the upper right of the BlueXP console.]
+
+. Click *Add Credentials* and follow the steps in the wizard.
+
+.. *Credentials Location*: Select *Microsoft Azure > BlueXP*.
+
+.. *Define Credentials*: Enter information about the Azure Active Directory service principal that grants the required permissions:
++
+* Client Secret
+* Application (client) ID
+* Directory (tenant) ID
++
+You should have captured this information when you <<Create the AD application,created the AD application>>.
+
+.. *Review*: Confirm the details about the new credentials and click *Add*.
