@@ -23,13 +23,13 @@ Azure NetApp Files enables enterprises to migrate and run their performance-inte
 
 == Additional features in BlueXP
 
-* Migrate NFS or SMB data to Azure NetApp Files directly from BlueXP. Data migrations are powered by NetApp's Cloud Sync service.
+* Migrate NFS or SMB data to Azure NetApp Files directly from BlueXP. Data migrations are powered by BlueXP copy and sync.
 +
-https://docs.netapp.com/us-en/cloud-manager-sync/concept-cloud-sync.html[Learn more about Cloud Sync^]
+https://docs.netapp.com/us-en/cloud-manager-sync/concept-cloud-sync.html[Learn more about BlueXP copy and sync^]
 
-* Using Artificial Intelligence (AI) driven technology, Cloud Data Sense can help you understand data context and identify sensitive data that resides in your Azure NetApp Files accounts.
+* Using Artificial Intelligence (AI) driven technology, BlueXP classification can help you understand data context and identify sensitive data that resides in your Azure NetApp Files accounts.
 +
-https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html[Learn more about Cloud Data Sense^]
+https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html[Learn more about BlueXP classification^]
 
 == Cost
 
@@ -49,4 +49,4 @@ For technical support issues associated with Azure NetApp Files, use the Azure p
 
 * https://cloud.netapp.com/azure-netapp-files[NetApp BlueXP website: Azure NetApp Files^]
 * https://docs.microsoft.com/azure/azure-netapp-files/[Azure NetApp Files documentation^]
-* https://docs.netapp.com/us-en/cloud-manager-sync/index.html[Cloud Sync documentation^]
+* https://docs.netapp.com/us-en/cloud-manager-sync/index.html[BlueXP copy and sync documentation^]
