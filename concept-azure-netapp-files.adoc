@@ -27,9 +27,9 @@ Azure NetApp Files enables enterprises to migrate and run their performance-inte
 +
 https://docs.netapp.com/us-en/cloud-manager-sync/concept-cloud-sync.html[Learn more about BlueXP copy and sync^]
 
-* Using Artificial Intelligence (AI) driven technology, Cloud Data Sense can help you understand data context and identify sensitive data that resides in your Azure NetApp Files accounts.
+* Using Artificial Intelligence (AI) driven technology, BlueXP classification can help you understand data context and identify sensitive data that resides in your Azure NetApp Files accounts.
 +
-https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html[Learn more about Cloud Data Sense^]
+https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html[Learn more about BlueXP classification^]
 
 == Cost
 
