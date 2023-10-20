@@ -2,10 +2,10 @@
 sidebar: sidebar
 permalink: task-quick-start.html
 keywords: set up azure netapp files, quick start
-summary: Get started quickly by following these steps or scroll down to the remaining sections for full details.
+summary: Get started with Azure NetApp Files by setting up an Azure Active Directory application and by creating a working environment.
 ---
 
-= Quick start for Azure NetApp Files
+= Getting started workflow
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,20 +13,14 @@ summary: Get started quickly by following these steps or scroll down to the rema
 :imagesdir: ./media/
 
 [.lead]
-Get started quickly by following these steps or follow the links for full details.
+Get started with Azure NetApp Files by setting up an Azure Active Directory application and by creating a working environment.
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png[One] Set up an Azure AD application
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png[One] link:task-set-up-azure-ad.html[Set up an Azure AD application]
 
 [role="quick-margin-para"]
 From Azure, grant permissions to an Azure AD application and copy the application (client) ID, the directory (tenant) ID, and the value of a client secret.
 
-[role="quick-margin-para"]
-link:task-set-up-azure-ad.html[Learn how to set up an Azure AD application].
-
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png[Two] Create an Azure NetApp Files working environment
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png[Two] link:task-create-working-env.html[Create an Azure NetApp Files working environment]
 
 [role="quick-margin-para"]
-In BlueXP, click *Add Working Environment* > *Microsoft Azure* > *Azure NetApp Files* and then provide details about the AD application.
-
-[role="quick-margin-para"]
-link:task-create-working-env.html[Learn how to create a working environment].
+From BlueXP, click *Add Working Environment* > *Microsoft Azure* > *Azure NetApp Files* and then provide details about the AD application.
