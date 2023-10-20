@@ -5,7 +5,7 @@ keywords: azure netapp files, create volumes, create nfs volumes, netapp account
 summary: After you set up your working environment, you can create Azure NetApp Files accounts, capacity pools, and volumes.
 ---
 
-= Create and mount volumes for Azure NetApp Files
+= Create and mount volumes
 :hardbreaks:
 :nofooter:
 :icons: font
