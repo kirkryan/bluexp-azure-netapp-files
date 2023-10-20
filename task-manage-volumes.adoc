@@ -5,7 +5,7 @@ keywords: azure netapp files, delete volumes, delete nfs volumes, netapp account
 summary: After you set up your working environment, you can manage Azure NetApp Files accounts, capacity pools, volumes, and snapshots.
 ---
 
-= Manage volumes for Azure NetApp Files
+= Manage existing volumes
 :hardbreaks:
 :nofooter:
 :icons: font
