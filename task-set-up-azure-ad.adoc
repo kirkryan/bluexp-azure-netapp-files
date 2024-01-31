@@ -2,10 +2,10 @@
 sidebar: sidebar
 permalink: task-set-up-azure-ad.html
 keywords: azure netapp files, azure netapp files permissions, azure permissions, active directory, application, ad application, ad app, app, service principal
-summary: BlueXP needs permissions to set up and manage Azure NetApp Files. You can grant the required permissions to an Azure account by creating and setting up an Azure Active Directory application and by obtaining the Azure credentials that BlueXP needs.
+summary: BlueXP needs permissions to set up and manage Azure NetApp Files. You can grant the required permissions to an Azure account by creating and setting up a Microsoft Entra application and by obtaining the Azure credentials that BlueXP needs.
 ---
 
-= Set up an Azure AD application
+= Set up a Microsoft Entra application
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,11 +13,11 @@ summary: BlueXP needs permissions to set up and manage Azure NetApp Files. You c
 :imagesdir: ./media/
 
 [.lead]
-BlueXP needs permissions to set up and manage Azure NetApp Files. You can grant the required permissions to an Azure account by creating and setting up an Azure Active Directory (AD) application and by obtaining the Azure credentials that BlueXP needs.
+BlueXP needs permissions to set up and manage Azure NetApp Files. You can grant the required permissions to an Azure account by creating and setting up a Microsoft Entra application and by obtaining the Azure credentials that BlueXP needs.
 
-== Step 1: Create the AD application
+== Step 1: Create the application
 
-Create an Azure AD application and service principal that BlueXP can use for role-based access control.
+Create a Microsoft Entra application and service principal that BlueXP can use for role-based access control.
 
 .Before you begin
 
@@ -25,9 +25,9 @@ You must have the right permissions in Azure to create an Active Directory appli
 
 .Steps
 
-. From the Azure portal, open the *Azure Active Directory* service.
+. From the Azure portal, open the *Microsoft Entra ID* service.
 +
-image:screenshot_azure_ad.gif[A screenshot that shows the Active Directory service in Microsoft Azure.]
+image:screenshot_azure_ad.png[A screenshot that shows the Active Directory service in Microsoft Azure.]
 
 . In the menu, click *App registrations*.
 
@@ -45,11 +45,11 @@ image:screenshot_azure_ad.gif[A screenshot that shows the Active Directory servi
 
 . Copy the *Application (client) ID* and the *Directory (tenant) ID*.
 +
-image:screenshot_anf_app_ids.gif["A screenshot that shows the application (client) ID and directory (tenant) ID for an application in Azure Active Directory."]
+image:screenshot_anf_app_ids.gif["A screenshot that shows the application (client) ID and directory (tenant) ID for an application in Microsoft Entra ID."]
 +
 When you create the Azure NetApp Files working environment in BlueXP, you need to provide the application (client) ID and the directory (tenant) ID for the application. BlueXP uses the IDs to programmatically sign in.
 
-. Create a client secret for the application so BlueXP can use it to authenticate with Azure AD:
+. Create a client secret for the application so BlueXP can use it to authenticate with Microsoft Entra ID:
 
 .. Click *Certificates & secrets > New client secret*.
 
@@ -59,7 +59,7 @@ When you create the Azure NetApp Files working environment in BlueXP, you need t
 
 .. Copy the value of the client secret.
 +
-image:screenshot_anf_client_secret.gif[A screenshot of the Azure portal that shows a client secret for the Azure AD service principal.]
+image:screenshot_anf_client_secret.gif[A screenshot of the Azure portal that shows a client secret for the Microsoft Entra service principal.]
 
 .Result
 
@@ -143,7 +143,7 @@ image:screenshot_settings_icon.gif[A screenshot that shows the Settings icon in 
 
 .. *Credentials Location*: Select *Microsoft Azure > BlueXP*.
 
-.. *Define Credentials*: Enter information about the Azure Active Directory service principal that grants the required permissions:
+.. *Define Credentials*: Enter information about the Microsoft Entra service principal that grants the required permissions:
 +
 * Client Secret
 * Application (client) ID
