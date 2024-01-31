@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: task-create-working-env.html
 keywords: azure netapp files, create working environment, working environment
-summary: After you set up an Azure Active Directory application, create an Azure NetApp Files working environment in BlueXP so you can start creating the volumes that you need.
+summary: After you set up a Microsoft Entra application, create an Azure NetApp Files working environment in BlueXP so you can start creating the volumes that you need.
 ---
 
 = Create an Azure NetApp Files working environment
@@ -13,7 +13,7 @@ summary: After you set up an Azure Active Directory application, create an Azure
 :imagesdir: ./media/
 
 [.lead]
-After you set up an Azure Active Directory application and add the credentials to BlueXP, create an Azure NetApp Files working environment so that you can start creating the volumes that you need.
+After you set up a Microsoft Entra application and add the credentials to BlueXP, create an Azure NetApp Files working environment so that you can start creating the volumes that you need.
 
 .Steps
 
