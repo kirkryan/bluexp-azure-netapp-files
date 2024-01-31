@@ -21,7 +21,7 @@ sidebar:
           url: /concept-azure-netapp-files.html
         - title: Getting started workflow
           url: /task-quick-start.html
-        - title: Set up an Azure AD application
+        - title: Set up a Microsoft Entra application
           url: /task-set-up-azure-ad.html
         - title: Create a working environment
           url: /task-create-working-env.html

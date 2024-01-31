@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: task-quick-start.html
 keywords: set up azure netapp files, quick start
-summary: Get started with Azure NetApp Files by setting up an Azure Active Directory application and by creating a working environment.
+summary: Get started with Azure NetApp Files by setting up a Microsoft Entra application and by creating a working environment.
 ---
 
 = Getting started workflow
@@ -13,12 +13,12 @@ summary: Get started with Azure NetApp Files by setting up an Azure Active Direc
 :imagesdir: ./media/
 
 [.lead]
-Get started with Azure NetApp Files by setting up an Azure Active Directory application and by creating a working environment.
+Get started with Azure NetApp Files by setting up a Microsoft Entra application and by creating a working environment.
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png[One] link:task-set-up-azure-ad.html[Set up an Azure AD application]
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png[One] link:task-set-up-azure-ad.html[Set up a Microsoft Entra application]
 
 [role="quick-margin-para"]
-From Azure, grant permissions to an Azure AD application and copy the application (client) ID, the directory (tenant) ID, and the value of a client secret.
+From Azure, grant permissions to a Microsoft Entra application and copy the application (client) ID, the directory (tenant) ID, and the value of a client secret.
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png[Two] link:task-create-working-env.html[Create an Azure NetApp Files working environment]
 
