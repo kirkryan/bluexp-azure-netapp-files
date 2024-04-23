@@ -16,7 +16,7 @@ summary: Learn what's new with Azure NetApp Files support in BlueXP.
 Learn what's new with Azure NetApp Files in BlueXP.
 
 //tag::whats-new[]
-== 17 April 2024
+== 22 April 2024
 
 === Volume templates no longer supported
 
