@@ -16,6 +16,12 @@ summary: Learn what's new with Azure NetApp Files support in BlueXP.
 Learn what's new with Azure NetApp Files in BlueXP.
 
 //tag::whats-new[]
+== 22 April 2024
+
+=== Volume templates no longer supported
+
+You can no longer create a volume from a template. This action was associated with the BlueXP remediation service, which is no longer available.
+
 == 11 April 2021
 
 === Support for volume templates
@@ -33,6 +39,8 @@ You can now dynamically change the service level for a volume to meet workload n
 
 https://docs.netapp.com/us-en/bluexp-azure-netapp-files/task-manage-volumes.html#change-the-volumes-service-level[Learn how to change a volume's service level].
 
+//end::whats-new[]
+
 == 3 August 2020
 
 === Azure NetApp Files set up and management
@@ -48,7 +56,6 @@ Cloud Manager enables you to create, delete, and restore volume snapshots. You c
 * Edit a volume by changing its size and managing tags.
 
 The ability to create and manage Azure NetApp Files directly from Cloud Manager replaces the previous data migration functionality.
-//end::whats-new[]
 
 == 5 April 2020
 
